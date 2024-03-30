@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECG Classification</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ECG Classification</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="ecgFile">Upload your ECG in .mat format:</label>
+            <input type="file" id="ecgFile" name="files" accept=".mat" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
